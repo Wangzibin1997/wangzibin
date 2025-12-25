@@ -1,0 +1,38 @@
+{
+  "trading": {
+    "timeframe": "1h",
+    "max_open_trades": 5,
+    "stake_currency": "USDT",
+    "tradable_balance_ratio": 0.95,
+    "trading_mode": "futures",
+    "margin_mode": "isolated",
+    "leverage": 10,
+    "pairs": [
+      "BTC/USDT:USDT",
+      "BNB/USDT:USDT",
+      "SOL/USDT:USDT",
+      "WLD/USDT:USDT",
+      "TRUMP/USDT:USDT"
+    ]
+  },
+  "risk": {
+    "enabled": true,
+    "max_drawdown": 0.25,
+    "daily_loss": 0.05,
+    "manual_unlock_only": true
+  },
+  "news": {
+    "enabled": true,
+    "urls": [],
+    "allow_domains": [
+      "coindesk.com",
+      "wublock123.com",
+      "followin.io"
+    ]
+  },
+  "agent": {
+    "llm_api_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "llm_model": "ep-20251222181650-2b6qc",
+    "llm_api_key": "254fb359-6f83-4511-a367-cee108f0759c"
+  }
+}
